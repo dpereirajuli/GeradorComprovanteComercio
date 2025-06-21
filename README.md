@@ -31,5 +31,5 @@ Pra rodar o sistema, você precisa:
 ## Como configurar
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/gs-store.git
-   cd gs-store
+   git clone https://github.com/dpereirajuli/GeradorComprovanteComercio
+   cd GeradorComprovanteComercio
