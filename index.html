@@ -692,12 +692,12 @@
 
             // Header Text (shifted right)
             doc.setFontSize(12);
-            doc.text('GS Store - Vendas e Manutenção de Aparelhos', 50, 14);
+            doc.text('GS Store - Vendas e Manutenção de Produtos Apple', 50, 14);
             doc.setFontSize(10);
-            doc.text('Rua Isaac Francisco Pimenta 23 B', 50, 20);
-            doc.text('Whatsapp: (11) 99666-8683 | Email: contato@gsstore.com', 50, 26);
+            doc.text('Instagram: gs.store22_ | Whatsapp: (11)97068-4533', 50, 20);
+            doc.text('Email: gs.comprovante@gmail.com', 50, 26);
             doc.setFontSize(14);
-            doc.text(type === 'Venda' ? 'Venda' : 'Reparo / Assistência', 50, 36);
+            doc.text(type === 'Venda' ? 'Comprovante de Venda' : 'Reparo / Assistência', 50, 36);
 
             // Client Data
             doc.setFontSize(12);
@@ -791,6 +791,8 @@
             doc.text('*NÃO COBRIMOS APARELHO COM MARCAS DE ÁGUA OU EXPOSTOS A VAPOR.*', 10, y);
             y += 6;
             doc.text('*NÃO TIRAR O SELO COLADO ABAIXO NO APARELHO, APARELHOS SEM SELO PERDEM A GARANTIA*', 10, y);
+            y += 6;
+            doc.text('*PRODUTOS LACRADOS TEM GARANTIA DE 1 ANO COM A FABRICANTE*', 10, y);
 
             // Signatures
             y += 20;
